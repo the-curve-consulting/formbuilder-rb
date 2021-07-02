@@ -1,4 +1,4 @@
-require 'carrierwave/processing/mime_types'
+require 'mime/types'
 
 module Formbuilder
   class EntryAttachmentUploader < ::BaseUploader
