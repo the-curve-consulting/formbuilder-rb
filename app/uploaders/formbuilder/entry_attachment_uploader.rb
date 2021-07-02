@@ -2,7 +2,6 @@ require 'mime/types'
 
 module Formbuilder
   class EntryAttachmentUploader < ::BaseUploader
-    include CarrierWave::MimeTypes
     include CarrierWave::RMagick
 
     process :set_content_type
